@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@anfu/font-subset':
-    specifier: ^1.0.0
-    version: 1.0.0
   commander:
     specifier: ^11.1.0
     version: 11.1.0
@@ -36,15 +33,6 @@ devDependencies:
     version: 4.5.0(@types/node@20.8.7)
 
 packages:
-
-  /@anfu/font-subset@1.0.0:
-    resolution: {integrity: sha512-JgqjYWiEzOIW0NAlSQTUKYlJqDDzCUrPXbrzVHAc/SFBFin52FMTHBUQfln2jWwuW77611si5YMMZPnixgwvqw==}
-    hasBin: true
-    dependencies:
-      commander: 11.1.0
-      opentype.js: 1.3.4
-      rslog: 1.1.0
-    dev: false
 
   /@esbuild/android-arm64@0.18.20:
     resolution: {integrity: sha512-Nz4rJcchGDtENV0eMKUNa6L12zz2zBDXuhj/Vjh18zGqB44Bi7MBMSXjgunJgjRhCmKOjnPuZp4Mb6OKqtMHLQ==}
