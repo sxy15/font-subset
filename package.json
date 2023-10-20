@@ -1,6 +1,6 @@
 {
   "name": "@anfu/font-subset",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "create a font-subset from a font file",
   "type": "module",
   "main": "./lib/index.js",
