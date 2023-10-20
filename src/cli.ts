@@ -4,7 +4,7 @@ import { cliVersion } from './index.js';
 const program = new Command();
 
 program
-    .name('font-subset')
+    .name('fsub')
     .usage('-c <path>')
     .description('a command tool for generate font subset')
     .version(`font-subset ${cliVersion}`);
