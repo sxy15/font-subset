@@ -10,7 +10,7 @@ pnpm i @anfu/font-subset -g
 # usage
 
 ```
-Usage: font-subset -c <path>
+Usage: fsub -c <path>
 
 a command tool for generate font subset
 
