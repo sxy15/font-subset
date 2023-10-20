@@ -1,0 +1,48 @@
+{
+  "name": "font-subset",
+  "version": "1.0.0",
+  "description": "create a font-subset from a font file",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "fsub": "./bin.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "bin.js"
+  ],
+  "packageManager": "pnpm@8.8.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sxy15/font-subset"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "rimraf ./lib && tsc",
+    "release": "bumpp",
+    "prepare": "pnpm build",
+    "example": "vite"
+  },
+  "keywords": [
+    "font",
+    "subset",
+    "opentype"
+  ],
+  "author": "sxy15",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "bumpp": "^9.2.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "opentype.js": "^1.3.4",
+    "rslog": "^1.1.0"
+  }
+}

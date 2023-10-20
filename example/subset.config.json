@@ -1,0 +1,9 @@
+{
+    "fontPath": "./gbk.ttf",
+    "text": "锐字工房云字库行楷GBK",
+    "preset": true,
+    "output": {
+        "path": "./example",
+        "name": "gbk"
+    }
+}
